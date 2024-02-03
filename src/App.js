@@ -1,7 +1,12 @@
 import "./App.css";
+import Navbar from "./components/navbar/navbar";
 
 function App() {
-  return <div className="App">this is a test</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
